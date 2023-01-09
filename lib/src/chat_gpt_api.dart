@@ -38,7 +38,7 @@ class ChatGPT {
     Timer(const Duration(seconds: 1), () {
       _buildApi();
       setToken(token);
-      setOrgId(orgID);
+      setOrgId(orgId);
     });
     return instance;
   }
